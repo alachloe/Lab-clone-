@@ -1,0 +1,68 @@
+@import url("https://fonts.google.com/specimen/Roboto+Mono");
+
+html
+ {   
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Roboto mono";
+    font-size: 16px;
+  }
+  
+  h2 {
+    font-size: 4rem;
+    font-weight: 300;
+    margin: 0 0 1rem 0;
+  }
+  
+  header {
+    height: 500px;
+    background-image: url("https://raw.githubusercontent.com/alachloe/lab-css-recipes-clone-es/master/apple-pie/images/apple-pie.jpg");
+    background-position:center center;
+    background-size: cover;
+    color: white;
+  
+}
+
+ 
+  header h1 {
+    font-weight: 300;
+    font-size: 3rem;
+    text-align: center;
+    
+  }
+  
+  main img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  main {
+    padding: 4rem;
+  }
+  
+  #recipe-information p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0 0 2.5rem 0;
+    text-align: center center;
+  }
+  
+  #ingredients ul {
+    list-style-type: " ";
+    margin: 0 0 1rem 1rem;
+  }
+  
+  #direction ol {
+    list-style-type: none;
+    counter-reset: compteur;
+  }
+  
+  #diections li {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0 0 1rem 1rem;
+  }
